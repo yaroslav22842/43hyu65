@@ -7,7 +7,7 @@ class Ninja(Charecter):
 
     def roll(self, heal):
         dash = random.randint(1, 1000)
-        if dash <= 100:
+        if dash <= 150:
             self.heal_count()
             self.health = self.health + heal
 

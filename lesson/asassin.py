@@ -8,6 +8,6 @@ class Assasin(Charecter):
     def setDamage(self):
         brut = random.randint(1, 1000)
         if brut <= 100:
-            self.attaka = 60
+            self.attaka = 65
         else:
             self.attaka = self.damage

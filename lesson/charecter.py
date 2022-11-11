@@ -31,7 +31,7 @@ class Charecter:
         return self.health < 0
 # if self.health < 0:
 #    print(f'{self.name} умер')
-
+#
     def heal_count (self):
         self.heal = self.damage
 

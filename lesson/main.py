@@ -6,7 +6,7 @@ a = input("your name> ")
 b = input("player 2 name> ")
 player1 = Assasin(name=a,defence=11,damage=3,health=100)
 player2 = Ninja(name=b,defence=11,damage=2,health=100)
-admin = Charecter(name="admin", damage=100, defence=100,health=200 )
+admin = Charecter(name="admin", damage=200, defence=100,health=200 )
 while True:
 
     player1.attack(player2)
