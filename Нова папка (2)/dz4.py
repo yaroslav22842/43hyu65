@@ -8,6 +8,7 @@ def divider(a, b):
  else:
     return a/b
 
+
 data = {10: 2, 2: 5, "123": 4, 18: 0, 45 : 15, 8: 4}
 
 while True:
